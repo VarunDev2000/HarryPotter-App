@@ -64,7 +64,7 @@ class DetailedScreen extends Component {
           </TouchableOpacity>
           <Text style={[styles.pageTitle,{color:this.state.data['house'] != "" ? (this.state.houseSubColour[this.state.data['house']]) : (colors.secondary)}]}>{this.state.data['name']}</Text>
           <TouchableOpacity activeOpacity={1} onPress={null}>
-            <Icon name="md-arrow-back-sharp" size={30} color={this.state.data['house'] != "" ? (this.state.houseColour[this.state.data['house']]) : (colors.secondary)} style ={{marginRight:20}}/>
+            <Icon name="md-arrow-back-sharp" size={30} color={this.state.data['house'] != "" ? (this.state.houseColour[this.state.data['house']]) : ("black")} style ={{marginRight:20}}/>
           </TouchableOpacity>
         </View>
 
