@@ -21,7 +21,7 @@ class HomeScreen extends Component {
     getDataFromApi = async () => {
         try {
           let response = await fetch(
-            'http://hp-api.herokuapp.com/api/characters'
+            'https://hp-api.herokuapp.com/api/characters'
           );
           let json = await response.json();
           //console.log(json);
